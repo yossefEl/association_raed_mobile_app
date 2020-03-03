@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "943953694275",
+    "firebase_url": "https://associationraedapps.firebaseio.com",
+    "project_id": "associationraedapps",
+    "storage_bucket": "associationraedapps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943953694275:android:994d7029c79f0c8b6f4ef6",
+        "android_client_info": {
+          "package_name": "com.association.raed.app.mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "943953694275-megu1ap6k42t7d8r55i89out95fbm9mg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.association.raed.app.mobile",
+            "certificate_hash": "302f2417db01193fb920757b19e478c1146d2460"
+          }
+        },
+        {
+          "client_id": "943953694275-oqp1tos8j3i8a43lv8l68jrri41vukcg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8T5MCID-VqtIJ-BNfZC5N50QA7KGtzGk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "943953694275-oqp1tos8j3i8a43lv8l68jrri41vukcg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

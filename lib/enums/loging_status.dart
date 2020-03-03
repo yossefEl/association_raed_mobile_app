@@ -1,0 +1,4 @@
+enum LogingStatus {
+  authenticated,
+  error
+}
