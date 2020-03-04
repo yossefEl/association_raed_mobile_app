@@ -9,15 +9,21 @@ import 'package:association_raed/blocs/tawjih_news_bloc.dart';
 import 'package:association_raed/pages/introduction/splash_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_downloader/flutter_downloader.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
-void main() => runApp(App());
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  SystemChrome.setEnabledSystemUIOverlays([]);
+  //initialize the flutter downloader plugin
+  await FlutterDownloader.initialize();
+  return runApp(App());
+}
 
 class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    SystemChrome.setEnabledSystemUIOverlays([]);
     return MultiProvider(
       providers: [
         ChangeNotifierProvider(create: (_) => AuthenticationBloc()),
@@ -39,4 +45,5 @@ class App extends StatelessWidget {
           home: SplashPage()),
     );
   }
+
 }

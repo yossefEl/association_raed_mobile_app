@@ -8,7 +8,7 @@ class ConcouratModel {
   ConcouratModel.fromJson(var json) {
     _filiereName = json['filiere_name'];
     try {
-      for(var cc in json['links']) {
+      for (var cc in json['links']) {
         print(cc.toString());
         listCC.add(ConcourModel.formJson(cc));
       }
