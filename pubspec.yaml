@@ -36,6 +36,8 @@ dependencies:
   google_sign_in: 
   firebase: 
   firebase_auth: 
+  firebase_core: 
+  firebase_database: 
   flutter_downloader:
   path_provider:
   
